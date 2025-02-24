@@ -35,7 +35,7 @@ body {
 }
 
 .head {
-    background-color: orange;
+    background-color: rgb(199, 91, 109);
     color: white;
 }
 
@@ -52,7 +52,7 @@ body {
 }
 
 header {
-    background-color: coral;
+    background: linear-gradient(135deg,rgb(47, 214, 226),rgb(146, 104, 111));
     color: #fff;
     padding: 20px 0;
     margin-left: 0%;
