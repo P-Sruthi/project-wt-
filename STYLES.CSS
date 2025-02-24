@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.calendar-container {
+    overflow-x: auto; 
+    max-width: 100%;
+}
+
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, minmax(40px, 1fr)); 
+    gap: 5px;
+    text-align: center;
+    min-width: 350px;
+}
+
+.day {
+    padding: 10px;
+    border: 1px solid #ddd;
+    min-height: 50px;
+    background-color: #ffffff;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.event-card {
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px 0;
+    color: white;
+    text-align: center;
+}
+
+.head {
+    background-color: orange;
+    color: white;
+}
+
+.event a {
+    text-decoration: none;
+    color: white;
+    background-color: #007bff; 
+    display: block;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+header {
+    background-color: coral;
+    color: #fff;
+    padding: 20px 0;
+    margin-left: 0%;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+  }
+
+
+.event a:hover {
+    background-color: #0056b3;
+}
+
+
+.important-event a {
+    text-decoration: none;
+    color: white;
+    background-color: #dc3545; 
+    display: block;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+.important-event a:hover {
+    background-color: #a71d2a;
+}
+
+/* Mobile Optimization */
+@media (max-width: 576px) {
+    .calendar {
+        grid-template-columns: repeat(7, minmax(30px, 1fr)); /* Adjusts column size on small screens */
+    }
+}
