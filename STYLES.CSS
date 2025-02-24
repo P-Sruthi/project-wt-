@@ -42,7 +42,7 @@ body {
 .event a {
     text-decoration: none;
     color: white;
-    background-color: #007bff; 
+    background-color: #366d5b; 
     display: block;
     padding: 5px;
     border-radius: 5px;
@@ -56,8 +56,8 @@ header {
     color: #fff;
     padding: 20px 0;
     margin-left: 0%;
-    text-align: center;
-    font-size: 2.5em;
+   
+   
     font-weight: bold;
   }
 
